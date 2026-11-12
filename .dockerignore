@@ -1,0 +1,33 @@
+# Python environments
+.venv/
+__pycache__/
+*.pyc
+
+# Testing and linting
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Git
+.git/
+.gitignore
+
+# Secrets
+.env
+.env.*
+
+# Local databases and generated files
+chroma_db/
+*.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Tests are not required in the production image
+tests/
