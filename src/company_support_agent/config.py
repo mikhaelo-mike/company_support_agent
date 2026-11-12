@@ -42,7 +42,7 @@ class Settings(BaseSettings):
 
     google_api_key: str | None = None
 
-    gemini_model: str = "gemini-2.5-flash"
+    gemini_model: str = "gemini-3.8-flash"
 
     embedding_model: str = "gemini-embedding-001"
 
